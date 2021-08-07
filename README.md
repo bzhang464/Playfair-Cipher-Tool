@@ -16,7 +16,7 @@ This program is written in Python 3, so make sure to have it installed.
 
 To use, simply run PlayfairCipherTool.py on your interpreter.
 
-```bash
+```
 Welcome to the Playfair Cipher Tool!
 Would you like to use a custom cipher? y/n y
 Enter row 0 of the cipher. QWERT

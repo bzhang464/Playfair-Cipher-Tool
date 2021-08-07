@@ -89,8 +89,9 @@ def cipher_maker(custom):
 if __name__ == "__main__":
     print("Welcome to the Playfair Cipher Tool!")
     custom = input("Would you like to use a custom cipher? y/n")
-    cipher = cipher_maker(custom)
+    cipher = cipher_maker(custom.strip().lower())
     direction = input("Would you like to encrypt or decrypt a message? e/d")
+    direction = direction.strip().lower()
     if direction == "e":
         plaintext = input("Please enter your plaintext message.")
         print("Your encrypted message is " + encrypt(plaintext, cipher))

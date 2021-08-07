@@ -15,3 +15,17 @@ For more information on the Playfair Cipher, see this link: https://en.wikipedia
 This program is written in Python 3, so make sure to have it installed.
 
 To use, simply run PlayfairCipherTool.py on your interpreter.
+
+```bash
+Welcome to the Playfair Cipher Tool!
+Would you like to use a custom cipher? y/n y
+Enter row 0 of the cipher. QWERT
+Enter row 1 of the cipher. YUIOP
+Enter row 2 of the cipher. ASDFG
+Enter row 3 of the cipher. HKLZX
+Enter row 4 of the cipher. CVBNM
+Would you like to encrypt or decrypt a message? e/d e
+Please enter your plaintext message. Hello World!
+Your encrypted message is LQZHURFOBL
+Thank you for using the Playfair Cipher Tool!
+```

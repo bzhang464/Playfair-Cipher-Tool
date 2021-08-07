@@ -97,6 +97,6 @@ if __name__ == "__main__":
         plaintext = input("Please enter your plaintext message. ")
         print("Your encrypted message is " + encrypt(plaintext, cipher))
     if direction == "d":
-        ciphertext = input("Please enter your ciphertext message.")
+        ciphertext = input("Please enter your ciphertext message. ")
         print("Your decrypted message is " + decrypt(ciphertext, cipher))
     print("Thank you for using the Playfair Cipher Tool!")

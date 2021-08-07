@@ -75,7 +75,7 @@ def cipher_maker(custom):
         result = []
         for x in range(5):
             row = []
-            letters = input("Enter row {} of the cipher.".format(x))
+            letters = input("Enter row {} of the cipher. ".format(x))
             letters = letters.strip()
             for letter in letters:
                 row.append(letter.upper())
@@ -89,12 +89,12 @@ def cipher_maker(custom):
 
 if __name__ == "__main__":
     print("Welcome to the Playfair Cipher Tool!")
-    custom = input("Would you like to use a custom cipher? y/n")
+    custom = input("Would you like to use a custom cipher? y/n ")
     cipher = cipher_maker(custom.strip().lower())
-    direction = input("Would you like to encrypt or decrypt a message? e/d")
+    direction = input("Would you like to encrypt or decrypt a message? e/d ")
     direction = direction.strip().lower()
     if direction == "e":
-        plaintext = input("Please enter your plaintext message.")
+        plaintext = input("Please enter your plaintext message. ")
         print("Your encrypted message is " + encrypt(plaintext, cipher))
     if direction == "d":
         ciphertext = input("Please enter your ciphertext message.")

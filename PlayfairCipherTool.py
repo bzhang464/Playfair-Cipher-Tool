@@ -76,6 +76,7 @@ def cipher_maker(custom):
         for x in range(5):
             row = []
             letters = input("Enter row {} of the cipher.".format(x))
+            letters = letters.strip()
             for letter in letters:
                 row.append(letter.upper())
             result.append(row)
